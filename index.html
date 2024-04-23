@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>My First Blog</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row black-doble-border-bottom">
+            <p class="sun">☀️ </p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6"> 
+                <h1>My First Blog</h1>
+            </div>
+            <div class="col-sm-6 black-doble-border-left">
+                <header class="header">
+                    <h2>What's on your mind?</h2>
+                </header>
+                    <form id="blog-form" novalidate>
+                        <div class="form-group">
+                            <label for="user-one">Username:</label>
+                            <input id="user-one" class="form-control" type="text" id="username" name="username" required><br><br>
+                        </div>
+                        <div class="form-group"> 
+                            <label for="title-one">Title:</label>
+                            <input id="title-one" class="form-control" type="text" id="title" name="title" required><br><br>
+                        </div>
+                        <div class="form-group">
+                            <label for="content">Content:</label>
+                            <textarea id="content" class="form-control" name="content" rows="4" cols="50" required></textarea><br><br>
+                        </div>
+                        <div id="message"></div>
+                        <button id="submit-one" type="submit" class="submit-form">Submit</button>
+                    
+                    </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="./assets/js/form.js"></script>
+
+
+</body>
+
+</html>
+

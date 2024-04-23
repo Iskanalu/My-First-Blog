@@ -1,0 +1,23 @@
+.sun {
+   float: right; 
+   padding: 20px;
+}
+
+.black-doble-border-bottom {
+border-bottom: 10px black double;
+}
+
+.black-doble-border-left {
+    border-left: 10px black double;
+}
+.submit-form {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0 25px;
+    margin-bottom: 20px;
+}
+
+#blog-form {
+    margin: 10px;
+}
