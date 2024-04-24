@@ -18,9 +18,13 @@ submitButton.addEventListener('click', function(e) {
         messageDiv.innerText = ''; // Clear any previous messages
         blogsArray.push(blogObject);
         window.localStorage.setItem("myblog",JSON.stringify(blogsArray));
-        user = "";
-        title = "";
-        content = "";
+        document.getElementById("user-one").value = "";
+        document.getElementById("title-one").value = "";
+        document.getElementById("content").value = "";
+       
+        // Redirect to another HTML page
+        window.location.href = "./blog.html";      
+
     }
 
 });

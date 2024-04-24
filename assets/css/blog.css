@@ -1,0 +1,37 @@
+.back{
+    width: auto;
+}
+
+.black-doble-border-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px black double;
+    
+}
+
+.blog-card {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 3px;
+
+}
+
+.blog-card h5 {
+    border-bottom: 1px solid black;
+}
+
+.blog-content {
+    font-style: italic;
+}
+
+.blog-footer {
+    color: rgb(106, 104, 104);
+}
+
+ /* Define styles for dark mode */
+body.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+    justify-content: flex-end;
+}
